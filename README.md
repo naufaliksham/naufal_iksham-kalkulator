@@ -1,2 +1,7 @@
-# naufal_iksham-kalkulator_app
-BE2621465
+# Author : Naufal Iksham - BE2621465
+
+# Kalkulator Sederhana
+
+Kalkulator ini digunakan untuk mempercepat menghitung data dengan perintah secara instan
+demi mempermudah penggunanya.
+
