@@ -5,3 +5,7 @@ READ AND WRITE "select" AS INTEGER WITH NUMBER
 
 STORE "var1" WITH NUMBER
 STORE "select" WITH 1
+
+DO
+    
+WHILE "select" > 0
