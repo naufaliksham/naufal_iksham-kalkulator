@@ -8,4 +8,10 @@ STORE "select" WITH 1
 
 DO
     STORE "select" WITH NUMBER
+    IF "select" equals 1
+    ELSE IF "select" equals 2
+    ELSE IF "select" equals 3
+    ELSE IF "select" equals 4
+    ELSE IF "select" equals 5
+    ELSE
 WHILE "select" > 0
