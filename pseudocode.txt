@@ -1,0 +1,33 @@
+READ AND WRITE "var1" AS FLOAT WITH NUMBER
+READ AND WRITE "var2" AS FLOAT WITH NUMBER
+READ AND WRITE "count" AS FLOAT WITH NUMBER
+READ AND WRITE "select" AS INTEGER WITH NUMBER
+
+STORE "var1" WITH NUMBER
+STORE "select" WITH 1
+
+DO
+    STORE "select" WITH NUMBER
+    IF "select" equals 1
+        STORE "var2" WITH NUMBER
+        STORE "count" WITH "var1" ADDITION "var2"
+        PRINT "count"
+    ELSE IF "select" equals 2
+        STORE "var2" WITH NUMBER
+        STORE "count" WITH "var1" SUBTRACTION "var2"
+        PRINT "count"
+    ELSE IF "select" equals 3
+        STORE "var2" WITH NUMBER
+        STORE "count" WITH "var1" MULTIPLICATION "var2"
+        PRINT "count"
+    ELSE IF "select" equals 4
+        STORE "var2" WITH NUMBER
+        STORE "count" WITH "var1" DIVISION "var2"
+        PRINT "count"
+    ELSE IF "select" equals 5
+        BREAK
+    ELSE
+        BREAK
+    
+    STORE "var1" WITH "count"
+WHILE "select" > 0
