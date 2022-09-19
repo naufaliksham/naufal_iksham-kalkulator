@@ -7,5 +7,5 @@ STORE "var1" WITH NUMBER
 STORE "select" WITH 1
 
 DO
-    
+    STORE "select" WITH NUMBER
 WHILE "select" > 0
